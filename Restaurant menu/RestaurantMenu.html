@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DELI BITES Menu Card</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .menu-card {
+            width: 600px;
+            margin: 20px auto;
+            padding: 30px;
+            border: 3px solid #f59e0b;
+            border-radius: 15px;
+            background-color: #1e293b;
+            box-shadow: 0 0 25px #f59e0b;
+        }
+
+        .restaurant-name {
+            font-size: 42px;
+            font-weight: bold;
+            color: #fbbf24;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            text-shadow: 2px 2px 6px #b45309;
+            margin-bottom: 5px;
+        }
+
+        .tagline {
+            font-size: 18px;
+            font-style: italic;
+            text-align: center;
+            color: #cbd5e1;
+            text-decoration: underline;
+            margin-bottom: 25px;
+        }
+
+        .menu-section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 2px solid #334155;
+            border-radius: 10px;
+            background-color: #0f172a;
+            box-shadow: 0 0 10px #334155;
+            text-align: left;
+        }
+
+        .section-title {
+            font-size: 26px;
+            color: #38bdf8;
+            text-transform: capitalize;
+            text-decoration: overline;
+            margin-top: 0;
+        }
+
+        .dish-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #34d399;
+            text-transform: capitalize;
+            margin-bottom: 2px;
+            transition: transform 0.2s;
+        }
+
+        .dish-name:hover {
+            transform: scale(1.1);
+        }
+
+        .dish-description {
+            font-size: 15px;
+            line-height: 1.6;
+            text-indent: 30px;
+            color: #94a3b8;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .special-offer {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #e11d48;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px #000000;
+            box-shadow: 0 0 15px #e11d48;
+            transform: rotate(-2deg);
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu-card">
+
+        <h1 class="restaurant-name">DELI BITES</h1>
+
+        <p class="tagline">Fresh subs, bold flavors!</p>
+
+        <div class="menu-section">
+            <h2 class="section-title">signature subs</h2>
+
+            <p class="dish-name">spicy turkey club</p>
+            <p class="dish-description">
+                Oven-roasted turkey breast, crispy bacon, melted provolone, and chipotle mayo on a toasted sub roll.
+            </p>
+
+            <p class="dish-name">classic roast beef</p>
+            <p class="dish-description">
+                Tender sliced roast beef with sharp cheddar, crisp lettuce, and zesty horseradish sauce.
+            </p>
+        </div>
+
+        <div class="menu-section">
+            <h2 class="section-title">fresh sides</h2>
+
+            <p class="dish-name">loaded potato salad</p>
+            <p class="dish-description">
+                Creamy homestyle potatoes tossed with crispy bacon bits, cheddar cheese, and fresh green onions.
+            </p>
+
+            <p class="dish-name">crispy onion rings</p>
+            <p class="dish-description">
+                Golden-fried sweet onions served hot with our signature house dipping sauce.
+            </p>
+        </div>
+
+        <p class="special-offer">Weekend combo: Free drink with any large sub!</p>
+
+    </div>
+
+</body>
+
+</html>
